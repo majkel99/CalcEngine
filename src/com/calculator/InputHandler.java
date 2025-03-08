@@ -3,7 +3,7 @@ package com.calculator;
 import java.util.Scanner;
 
 public class InputHandler {
-    private Scanner scanner;
+    private final Scanner scanner;
     public InputHandler(){
         scanner = new Scanner(System.in);
     }
